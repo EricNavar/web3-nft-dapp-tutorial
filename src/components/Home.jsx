@@ -2,9 +2,9 @@ import WalletBalance from './WalletBalance';
 import { useEffect, useState } from 'react';
 
 import { ethers } from 'ethers';
-import FiredGuys from '../artifacts/contracts/MyNFT.sol/FiredGuys.json';
+import FiredGuys from '../../contracts/FiredGuys.sol/FiredGuys.json';
 
-const contractAddress = 'YOUR_DEPLOYED_CONTRACT_ADDRESS';
+const contractAddress = 'YOUR_DEPLOYED_CONTRACT_ADDRESS'; //TODO
 
 const provider = new ethers.providers.Web3Provider(window.ethereum);
 
